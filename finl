@@ -554,10 +554,10 @@ export default function App() {
               {/* 1 Single Line Layout on Desktop */}
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
                 {[
-                  { city: 'Dubai Flagship', address: 'The Dubai Mall, Fashion Avenue', phone: '+971 4 800 AURA', img: 'https://i.pinimg.com/736x/9a/c9/c3/9ac9c3874cfa39b0f56614279f06348d.jpg' },
-                  { city: 'Karachi Atelier', address: 'Clifton Block 4, Diamond Arcades', phone: '+92 21 3500 AURA', img: 'https://i.pinimg.com/736x/f0/35/bd/f035bd6a23906439035e57cf214e7485.jpg' },
-                  { city: 'Lahore Showroom', address: 'MM Alam Road, Gulberg III Palace', phone: '+92 42 3600 AURA', img: 'https://i.pinimg.com/736x/6f/e0/3c/6fe03ced13af3b44ed09b68ff137c988.jpg' },
-                  { city: 'Islamabad Studio', address: 'F-6 Markaz, Luxury Arcades', phone: '+92 51 3700 AURA', img: 'https://i.pinimg.com/736x/4f/f9/07/4ff907e0a5b6676f0263ffcd97be9c80.jpg' }
+                  { city: 'Dubai Flagship', address: 'The Dubai Mall, Fashion Avenue', phone: '+971 4 800 AURA', img: 'https://i.pinimg.com/1200x/f7/7c/69/f77c69b13645ffdb488c68adf1e78710.jpg' },
+                  { city: 'Karachi Atelier', address: 'Clifton Block 4, Diamond Arcades', phone: '+92 21 3500 AURA', img: 'https://i.pinimg.com/1200x/e4/32/81/e432815f4fe0bbbba5573f2e9a3b2101.jpg' },
+                  { city: 'Lahore Showroom', address: 'MM Alam Road, Gulberg III Palace', phone: '+92 42 3600 AURA', img: 'https://i.pinimg.com/736x/34/ad/ef/34adef4964c7d93a574a7717d0ef67b7.jpg' },
+                  { city: 'Islamabad Studio', address: 'F-6 Markaz, Luxury Arcades', phone: '+92 51 3700 AURA', img: 'https://i.pinimg.com/1200x/b2/c6/05/b2c6058c7cc34a1132a1225606d3a35d.jpg' }
                 ].map((b, idx) => (
                   <div 
                     key={idx} 
